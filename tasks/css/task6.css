@@ -6,13 +6,17 @@ body{
     width: 100%;
     height: 8rem;
     background-color: #68cdd5;
-    position: fixed;
     top: 0;
     z-index: 2;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .txt{
     position: absolute;
+    margin:0 auto
 }
 
 .txt1{
@@ -20,7 +24,7 @@ body{
     height: 6rem;
     background-color: #00a4a2;
     border-radius: 1rem;
-    margin-left: 38rem;
+    /*margin-left: 38rem;*/
     margin-top: 1rem;
     float: left;
 
@@ -50,15 +54,18 @@ body{
     color: #68cdd5;
 }
 
-.header img{
-    float: right;
-    padding: 1.8rem;
+.header span{
+   background-image: url("../img/b.png");
+    height: 4.4rem;
+    width: 4.2rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 25%;
 }
 
 .head{
     display: flex;
-    padding-top: 8rem;
-
+    /*padding-top: 8rem;*/
 }
 
 .txt3{
@@ -77,9 +84,11 @@ body{
     width: 33.3%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+}
+.line {
     border-right: 1px solid #CCC;
 }
-
 .head{
     display: flex;
     width: 100%;
@@ -183,8 +192,7 @@ body{
     height: 0;
     margin-left: 2px;
     vertical-align: middle;
-    border-top: 10px dashed;
-    border-top: 4px solid;
+    border-top: 10px solid;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
 }
